@@ -1,0 +1,70 @@
+body {
+    background-color: wheat;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 350px;
+    height: 500px;
+    background-color: #ffffff;
+    text-align: center;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin-inline: 20px;
+}
+
+.img-div img {
+    height: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin-top: 18px;
+}
+
+.img-div {
+    background-color: rgba(0, 119, 255);
+    border-radius: 10px;
+}
+
+.cards p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.cards button {
+    height: 35px;
+    width: 170spx;
+    font-size: 18px;
+    background-color: rgba(0, 119, 255);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.cards button:hover {
+    border: 2px solid rgba(0, 119, 255);
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.icons {
+    font-size: 33px;
+    margin-top: 10px;
+}
+
+.icons i {
+    margin-inline: 23px;
+}
+
+.icons span {
+    color: rgba(0, 119, 255);
+}
+
+.icons .insta {
+    color: rgb(255, 0, 170);
+}
